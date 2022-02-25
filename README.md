@@ -27,4 +27,4 @@ While it is a nice basic website and with quite a lot of evidence of UFO sightin
 2. A reset button that resets search filter would be helpful. 
 3. since there is only 111 records then a .js file is acceptable. However, when you have thousands of records then a database will be needed. 
 
-However, the site is functional and looks usable. 
+However, the site is functional and looks usable and itwas fun creating it. 
