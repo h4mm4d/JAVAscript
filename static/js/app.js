@@ -1,3 +1,24 @@
+// import the data from data.js
+var tableData = data;
+
+// HTML table using d3
+var tbody = d3.select("tbody");
+
+// Dynamic Tables
+function buildTable(data) {
+    // First, clear out any existing data
+    tbody.html("");
+
+    // for loop
+    data.forEach((dataRow) => {
+      let row = tbody.append("tr");
+      Object.values(dataRow).forEach((val) => {
+        let cell = row.append("td");
+        cell.text(val);
+        }
+      );
+    });
+}
 function handleClick() {
   // Grab the datetime value from the filter
   let date = d3.select("#datetime").property("value");
